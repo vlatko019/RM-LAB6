@@ -29,7 +29,6 @@ void main(int argc, char* argv[])
 
 	std::string reqmethod = getenv("REQUEST_METHOD");
 	std::string q_string = getenv("QUERY_STRING");
-	std::string postInputString;
 
 	std::map<std::string, std::string> gtParams;
 
